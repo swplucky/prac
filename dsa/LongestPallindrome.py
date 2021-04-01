@@ -9,6 +9,7 @@ def longestPallindrome(string):
        table[i][i] = True
        i +=1
 
+    i = 0
     while i<n-1:
         if string[i] == string[i+1]:
             table[i][i+1]=True

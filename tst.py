@@ -365,7 +365,7 @@ class booking:
 
 
 class BST:
-    def __init__(self):
+    def __init__(self):d05
         self.root = None
 
     def insert(self, n):
