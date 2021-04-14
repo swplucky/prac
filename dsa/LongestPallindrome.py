@@ -1,5 +1,4 @@
 def longestPallindrome(string):
-    #ls = ''.join(string) string is already a char array
     n = len(string)
     table = [[False for x in range(n)] for y in range(n)]
     start = 0

@@ -10,7 +10,7 @@ def subsetSum(target,value,n,partial):
         subsetSum(target,value,n-1,partial)
 
 if __name__ == '__main__':
-    s = [6,4,7,3]
+    s = [6,4,4,9,2,7,3]
     sum = 11
     partial = []
     print(subsetSum(sum,s,len(s),partial))
